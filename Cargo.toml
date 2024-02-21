@@ -1,0 +1,10 @@
+[package]
+name = "defmt-errors"
+authors = ["Callum Dunster"]
+description = "Generate error types for use in embedded systems using defmt to print them."
+license = "MIT"
+repository = "https://github.com/cdunster/defmt-errors"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
