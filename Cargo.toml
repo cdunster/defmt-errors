@@ -1,3 +1,5 @@
+workspace = { members = ["defmt-errors-derive"] }
+
 [package]
 name = "defmt-errors"
 authors = ["Callum Dunster"]
