@@ -1,0 +1,9 @@
+exclude = [".direnv/**"]
+
+[formatting]
+reorder_keys = false
+
+[[rule]]
+include = ["**/Cargo.toml"]
+keys = ["dependencies", "workspace.dependencies", "patch.crates-io"]
+formatting = { reorder_keys = true }
