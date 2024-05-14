@@ -33,12 +33,6 @@
               cargo-check.enable = true;
               commitizen.enable = true;
               taplo.enable = true;
-              cargo-toml-lint = {
-                enable = true;
-                name = "cargo-toml-lint";
-                entry = "cargo-toml-lint";
-                files = "Cargo\\.toml$";
-              };
             };
           };
         };
@@ -49,7 +43,6 @@
             taplo
             git-cliff
             cargo-make
-            cargo-toml-lint
             cargo-llvm-cov
             cargo-expand
           ];
